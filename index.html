@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trabalho de design de interfaces do ifrs">
+    <meta name="keywords" content="HTML, CSS, HTML5, tads">
+    <title>Trabalho 1</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        th, td {
+            text-align: left;
+            padding: 2px;
+            border: solid 1px black;
+        }
+
+        ul {
+            list-style: disc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabalho 1 de design de interfaces</h1>
+        <p>Lorem ipsum dolor <b>sit amet consectetur adipisicing</b> elit. Praesentium porro,
+        <i>inventore soluta nulla quae velit nobis sit voluptatibus</i> nam rem. 
+        Vel sed sunt suscipit culpa quisquam! Ipsum deserunt nobis in?</p>
+
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Principal</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="listas">
+            <div class="lista--frutas">
+                <ol>
+                    <li>Frutas</li>
+                    <ul>
+                        <li>Banana</li>
+                        <li>Maçã</li>
+                        <li>Abacate</li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="lista--legumes">
+                <ol>
+                    <li>Legumes</li>
+                    <ul>
+                        <li>Cebola</li>
+                        <li>Pimentão</li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="lista--cereais">
+                <ol>
+                    <li>Cereais</li>
+                    <ul>
+                        <li>Arroz</li>
+                        <li>Feijão</li>
+                    </ul>
+                </ol>
+            </div>
+        </div>
+
+        <table>
+            <caption><b>Lucro por Mês</b></caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maça</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>    
+        
+        <br><br>
+
+        <a href="https://ifrs.edu.br/riogrande/" target="_blank"><img src="./img/ifrs.jpg" width="700px" height="375px" alt="foto do ifrs campos riogrande"></a>
+
+        <figure>
+            <img src="./img/html5.png" alt="imagem do html5">
+            <figcaption>Icone do html 5</figcaption>
+        </figure>
+
+        <form action="" method="get">
+            <fieldset>
+                <legend>Seus dados aqui</legend>
+
+                <label for="nome-completo">Nome completo:</label>
+                <input type="text" name="nome-completo" id="nome-completo" placeholder="Digite seu nome completo" required><br><br>
+
+                <label for="email">Seu email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor email" required><br><br>
+
+                <label for="password">Digite sua senha:</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" required><br><br>
+
+                <label for="telefone">Digite seu telefone:</label>
+                <input type="tel" name="telefone" id="telefone" required placeholder="(99) 9 9999-9999"><br><br>
+
+                <label for="date">Sua data de nascimento:</label>
+                <input type="date" name="date" id="date" required><br><br>
+
+                <input type="submit" value="Cadastrar-se">
+            </fieldset>
+        </form><br><br>
+
+        <div class="frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5NKayzW2GWw?si=wIY9o7DQHH19MhGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <br><br>
+    </main>
+
+    <footer>
+        <hr>
+        Rio Grande - Rio Grande do Sul, endereço qualquer, 575
+    </footer>
+
+    
+</body>
+</html>
